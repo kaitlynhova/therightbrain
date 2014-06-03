@@ -3,12 +3,15 @@
 <head>
   <title>TheRightBrain</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
+<script src="assets/modernizr.custom.js"></script>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
-
+<script src="assets/classie.js"></script>
+<script src="assets/helper.js"></script>
+<script src="assets/grid3d.js"></script>
 </body>
 </html>
