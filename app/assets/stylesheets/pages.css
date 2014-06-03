@@ -1,3 +1,8 @@
+#title_photos{
+  position: inherit;
+  top: -100px;
+}
+
 #moving_photo1{
   position:relative;
   width:100%;
