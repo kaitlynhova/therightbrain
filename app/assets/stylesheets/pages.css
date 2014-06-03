@@ -1,0 +1,22 @@
+#moving_photo1{
+  position:relative;
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#moving_photo2{
+  position:relative;
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#moving_photo3{
+  width:100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.goaway{
+  display:none;
+}
