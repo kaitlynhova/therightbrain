@@ -4,6 +4,7 @@ $(document).ready(function(){
  
  function loadPhotos(){
    var windscroll = $(window).scrollTop();
+   console.log(windscroll);
    if (windscroll < 50) {
      $('#moving_photo1').removeClass('goaway');
      $('#moving_photo2').addClass('goaway');
@@ -19,6 +20,7 @@ $(document).ready(function(){
       $('#moving_photo2').addClass('goaway');
       $('#moving_photo3').removeClass('goaway');
     }
+    
  }
   $(window).scroll(function() {
     loadPhotos();

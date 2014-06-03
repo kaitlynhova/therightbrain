@@ -1,6 +1,88 @@
+@font-face {
+    font-family: 'hipstelveticabold';
+    src: url('hipstelvetica_bold-webfont.eot');
+    src: url('hipstelvetica_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('hipstelvetica_bold-webfont.woff') format('woff'),
+         url('hipstelvetica_bold-webfont.ttf') format('truetype'),
+         url('hipstelvetica_bold-webfont.svg#hipstelveticabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hipstelveticalight';
+    src: url('hipstelvetica_light-webfont.eot');
+    src: url('hipstelvetica_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('hipstelvetica_light-webfont.woff') format('woff'),
+         url('hipstelvetica_light-webfont.ttf') format('truetype'),
+         url('hipstelvetica_light-webfont.svg#hipstelveticalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hipstelveticaultralight';
+    src: url('hipstelvetica_ultralight-webfont.eot');
+    src: url('hipstelvetica_ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('hipstelvetica_ultralight-webfont.woff') format('woff'),
+         url('hipstelvetica_ultralight-webfont.ttf') format('truetype'),
+         url('hipstelvetica_ultralight-webfont.svg#hipstelveticaultralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+  text-align:center;
+  font-family: 'hipstelveticabold';
+}
+
+h3{
+  text-align: center;
+  letter-spacing: 5px;
+  color: black;
+}
+
+.main_navigation{
+  font-family: 'hipstelveticabold';
+  text-align:center;
+  color:whitesmoke; 
+}
+
+#music_submenu{
+  color: #f5f5f5;
+  padding: 20px;
+}
+
+.navbg{
+  background: black;
+  padding: 25px;
+  font-size: 20px;
+  opacity: .6;
+}
+
+.that_triangle{
+  position: fixed;
+  top: 68px;
+  opacity: .6;
+  z-index:100;
+}
+
+.triangle_submenu{
+  top:108px;
+}
+
 #title_photos{
   position: inherit;
-  top: -100px;
+  z-index:-2;
 }
 
 #moving_photo1{
@@ -22,6 +104,13 @@
   background-repeat: no-repeat;
 }
 
+.stay{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+}
+
 .goaway{
   display:none;
 }
@@ -30,8 +119,25 @@
   width: 100%;
   display: block;
   margin: 0 auto;
+  margin-top: 300px;
   position: relative;
-  z-index: 10;
-  top: 300px;
+  z-index: -1;
   opacity: .6;
+  position: fixed;
+}
+
+#solo_music{
+  padding-top:100px;
+}
+
+@media only screen and (max-width: 40em) { 
+
+  #title_photos{
+    position: inherit;
+    top: 0px;
+    z-index:-2;
+  }
+  #name{
+    margin-top: 100px;
+  }
 }
