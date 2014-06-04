@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src="//use.typekit.net/xty1bvd.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <title>TheRightBrain</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-<script src="assets/modernizr.custom.js"></script>
-  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag :modernizr %>
+  <script type="text/javascript" src="//use.typekit.net/xty1bvd.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
-
+  <%= javascript_include_tag "application" %>
 </body>
 </html>
