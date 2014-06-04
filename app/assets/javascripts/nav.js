@@ -1,6 +1,11 @@
 $(document).ready(function(){
   $( "#music" ).click(function() {
+    $('#that_triangle').slideToggle('triangle_submenu');
     $('#music_submenu').slideToggle('goaway');
-    $('#that_triangle').toggleClass("goaway_for_real");
+    if ($('#that_triangle').position().top == 68){
+      $('#that_triangle').css('top', '108px');
+    }else if ($('#that_triangle').position().top == 108){
+      $('#that_triangle').css('top', '68px');
+    }
   });
 });
