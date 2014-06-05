@@ -29,6 +29,10 @@ class PagesController < ApplicationController
   end
   def art
   end
+  def violins
+  end
+  def videos
+  end
 
   # GET /pages/new
   # GET /pages/new.json
