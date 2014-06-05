@@ -11,6 +11,6 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require _masonry
+//= require masonry
 //= require jquery_ujs
 //= require_tree .
