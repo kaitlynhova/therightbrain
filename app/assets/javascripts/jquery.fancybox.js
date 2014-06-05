@@ -10,8 +10,11 @@
  *
  */
 
+
 (function (window, document, $, undefined) {
 	"use strict";
+  
+  
 
 	var H = $("html"),
 		W = $(window),
@@ -1828,22 +1831,7 @@
 		beforeShow : function(opts, obj) {
 			var scrollV, scrollH;
 
-			if (obj.locked) {
-				if (this.margin !== false) {
-					$('*').filter(function(){
-						return ($(this).css('position') === 'fixed' && !$(this).hasClass("fancybox-overlay") && !$(this).hasClass("fancybox-wrap") );
-					}).addClass('fancybox-margin');
-
-					this.el.addClass('fancybox-margin');
-				}
-
-				scrollV = W.scrollTop();
-				scrollH = W.scrollLeft();
-
-				this.el.addClass('fancybox-lock');
-
-				W.scrollTop( scrollV ).scrollLeft( scrollH );
-			}
+			
 
 			this.open(opts);
 		},
