@@ -44,7 +44,7 @@ body {
 
 .grid-wrap {
 	margin: 10px auto 0;
-
+  max-width: 69em !important;
 	width: 100%;
 	padding: 0;
 	-webkit-perspective: 1500px;
