@@ -259,7 +259,14 @@ body {
 
 .content > div.show .dummy-img,
 .content > div.show .dummy-text {
-	opacity: 1;
+  opacity: 1;
+  color: black;
+  font-family: 'europa';
+}
+
+.dummy-title{
+  font-weight: bold;
+  font-size: 30px !important;
 }
 
 .vertical .content > div.show .dummy-img,
