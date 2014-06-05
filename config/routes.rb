@@ -2,6 +2,10 @@ TheRightBrain::Application.routes.draw do
   resources :pages
 
   root :to => 'pages#home'
+  get "photos" => "pages#photos"
+  get "discography" => "pages#discography"
+  get "commercial_music" => "pages#commercial"
+  get "bridal_music" => "pages#bridal"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

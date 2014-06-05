@@ -43,12 +43,18 @@
 h1{
   text-align:center;
   font-family: 'hipstelveticabold';
+  line-height: 30px;
 }
 
 h3{
   text-align: center;
   letter-spacing: 5px;
   color: black;
+}
+
+.subtext{
+  text-align:center;
+  letter-spacing: 5px;
 }
 
 .main_navigation{
@@ -66,6 +72,7 @@ h3{
 
 #about_section{
  padding-top:150px;
+ font-size:60px;
 }
 
 .navbg{
@@ -83,6 +90,10 @@ h3{
   transition:top .5s;
 }
 
+.TLM_image{
+  width:100%;
+}
+
 .triangle_submenu{
   top:108px !important;
 }
@@ -90,6 +101,10 @@ h3{
 #title_photos{
   position: inherit;
   z-index:-2;
+}
+
+.photos_page{
+  margin-top:200px;
 }
 
 #moving_photo1{
@@ -138,7 +153,7 @@ h3{
 }
 
 #solo_music{
-  padding-top:100px;
+  padding-top:150px;
 }
 
 .timeline1{
@@ -172,7 +187,7 @@ h3{
   float: right;
   position: relative;
   right: -92px;
-  z-index: 50;
+  z-index: 9;
   top: -2px;
 }
 
@@ -183,6 +198,53 @@ h3{
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  
+  .TL_year {
+  position: relative;
+  top: 21px;
+  font-size: 30px;
+  }
+  
+  .TL_1989{
+    position: relative;
+    top: 45px;
+  }
+  
+  .TLM_1994{
+    position: relative;
+    top: 20px;
+  } 
+  
+  .TLM_2000{
+    position: relative;
+    top: 25px;
+  }
+  
+  .TLM_2001{
+    position: relative;
+    top: 20px;
+  }
+  
+  .TLM_2006{
+    position: relative;
+    top: 20px;
+  }
+  
+  .TLM_2011{
+    position: relative;
+    top: 20px;
+  }
+  
+  .TLM_2012{
+    position: relative;
+    top: 20px;
+  }
+  
+  .TLM_2013{
+    position: relative;
+    top: 20px;
+  } 
+    
   .timeline1{
     height: inherit;
     border: none;
@@ -197,6 +259,52 @@ h3{
 }
 
 @media only screen and (max-width: 40em) { 
+  
+  .TL_year {
+  position: relative;
+  top: 21px;
+  font-size: 30px;
+  }
+  
+  .TL_1989{
+    position: relative;
+    top: 45px;
+  }
+  
+  .TLM_1994{
+    position: relative;
+    top: 20px;
+  } 
+  
+  .TLM_2000{
+    position: relative;
+    top: 25px;
+  }
+  
+  .TLM_2001{
+    position: relative;
+    top: 20px;
+  }
+  
+  .TLM_2006{
+    position: relative;
+    top: 20px;
+  }
+  
+  .TLM_2011{
+    position: relative;
+    top: 20px;
+  }
+  
+  .TLM_2012{
+    position: relative;
+    top: 20px;
+  }
+  
+  .TLM_2013{
+    position: relative;
+    top: 20px;
+  } 
 
   #title_photos{
     position: inherit;

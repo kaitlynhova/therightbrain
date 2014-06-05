@@ -20,6 +20,13 @@ class PagesController < ApplicationController
       format.json { render json: @page }
     end
   end
+  
+  def photos
+  end
+  def discography
+  end
+  def commercial
+  end
 
   # GET /pages/new
   # GET /pages/new.json
