@@ -27,6 +27,8 @@ class PagesController < ApplicationController
   end
   def commercial
   end
+  def art
+  end
 
   # GET /pages/new
   # GET /pages/new.json

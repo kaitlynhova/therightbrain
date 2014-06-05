@@ -6,6 +6,7 @@ TheRightBrain::Application.routes.draw do
   get "discography" => "pages#discography"
   get "commercial_music" => "pages#commercial"
   get "bridal_music" => "pages#bridal"
+  get "art" => "pages#art"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
