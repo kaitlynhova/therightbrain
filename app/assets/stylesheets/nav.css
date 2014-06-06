@@ -26,18 +26,19 @@ body {
 }
 
 .lines {
-  display: inline-block;
-  width: 4rem;
-  height: 0.57143rem;
-  background: #211f20;
-  border-radius: 0.28571rem;
-  transition: 0.3s;
-  position: relative;
+display: inline-block;
+width: 3rem;
+height: 0.47143rem;
+background: #211f20;
+border-radius: 0.28571rem;
+transition: 0.3s;
+position: relative;
 }
+
 .lines:before, .lines:after {
   display: inline-block;
-  width: 4rem;
-  height: 0.57143rem;
+  width: 3rem;
+  height: 0.47143rem;
   background: #211f20;
   border-radius: 0.28571rem;
   transition: 0.3s;
@@ -48,10 +49,10 @@ body {
   transform-origin: 0.28571rem center;
 }
 .lines:before {
-  top: 1rem;
+  top: .8rem;
 }
 .lines:after {
-  top: -1rem;
+  top: -.8rem;
 }
 
 .lines-button:hover .lines:before {
