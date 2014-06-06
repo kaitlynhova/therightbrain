@@ -16,8 +16,6 @@ TheRightBrain::Application.configure do
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = false
-  
-  config.logger = Logger.new(STDOUT)
 
   # Generate digests for assets URLs
   config.assets.digest = true
@@ -62,7 +60,6 @@ TheRightBrain::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
-  
   config.assets.precompile += %w(masonry.js component.css fancybox.js fancyboxmedia.js)
 
   # Log the query plan for queries taking more than this (works
