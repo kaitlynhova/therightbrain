@@ -60,21 +60,21 @@ h3{
 .main_navigation{
   font-family: 'hipstelveticabold';
   text-align:center;
-  color:whitesmoke; 
+  color:whitesmoke;
 }
 
 #music_submenu{
   color: #f5f5f5;
-  padding: 20px;
   text-align:center;
-  height: 40px;
+  position:relative;
+  top:-20px;
+  opacity: 0.0;
+  transition:.5s ease;
 }
 
 #media_submenu{
   color: #f5f5f5;
-  padding: 20px;
   text-align:center;
-  height: 40px;
 }
 
 #about_section{
