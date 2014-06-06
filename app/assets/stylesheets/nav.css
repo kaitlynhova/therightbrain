@@ -29,7 +29,7 @@ body {
 display: inline-block;
 width: 3rem;
 height: 0.47143rem;
-background: #211f20;
+background: whitesmoke;
 border-radius: 0.28571rem;
 transition: 0.3s;
 position: relative;
@@ -39,7 +39,7 @@ position: relative;
   display: inline-block;
   width: 3rem;
   height: 0.47143rem;
-  background: #211f20;
+  background: whitesmoke;
   border-radius: 0.28571rem;
   transition: 0.3s;
   position: absolute;
