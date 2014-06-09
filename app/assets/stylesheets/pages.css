@@ -68,6 +68,7 @@ h3{
 .main_navigation{
   font-family: 'hipstelveticabold';
   text-align:center;
+  z-index: 100;
   color:whitesmoke;
 }
 

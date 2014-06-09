@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $( "#music" ).click(function() {
+    alert("this");
     $('#that_triangle').slideToggle('triangle_submenu');
     $('#music_submenu').slideToggle('goaway');
     if ($('#that_triangle').position().top == 68){
