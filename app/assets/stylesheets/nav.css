@@ -251,10 +251,6 @@ a.toggle:hover {
 a.toggle:active {
     background-color:#222;
 }
-
-.overlay {
-    text-align: center;
-}
  
 .overlay:before {
     content: '';
@@ -262,6 +258,11 @@ a.toggle:active {
     height: 100%;
     vertical-align: middle;
     margin-right: -0.25em;
+}
+
+.overlay_clicked{
+  opacity: 1 !important;
+  z-index: 7 !important;
 }
 
 .txt {
@@ -285,6 +286,7 @@ a.toggle:active {
   left: 0;
   background: rgba(153,204,51,0.9);
   opacity: 0;
+  z-index: -1;
 }
 
 .overlay-scale {

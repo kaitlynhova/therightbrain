@@ -61,7 +61,7 @@ h3{
   background: url('/assets/fancybox_overlay.png');
   position: fixed;
   top: 0px;
-  z-index: 100000;
+  z-index: 10;
   width: 100%;
 }
 
