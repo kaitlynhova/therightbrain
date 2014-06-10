@@ -325,3 +325,12 @@ a.toggle:active {
   -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
   transition: transform 0.4s, opacity 0.4s;
 }
+
+@media screen and (device-aspect-ratio: 40/71) {
+  .overlay_p {
+  position: relative;
+  z-index: 200;
+  margin-top: -460px;
+  text-align: center;
+  }  
+}
