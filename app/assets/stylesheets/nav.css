@@ -254,7 +254,6 @@ a.toggle:active {
 
 .overlay_p{
   position: relative;
-  top: 0px;
   z-index: 200;
   margin-top: -700px;
   text-align: center;  
@@ -262,7 +261,6 @@ a.toggle:active {
 
 .overlay_p2{
   position: relative;
-  top: 0px;
   z-index: 200;
   margin-top: 0px;
   text-align: center;  
