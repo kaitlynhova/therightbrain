@@ -257,13 +257,15 @@ a.toggle:active {
   z-index: 200;
   margin-top: -700px;
   text-align: center;  
+  font-size: 40px;
 }
 
 .overlay_p2{
   position: relative;
   z-index: 200;
   margin-top: 0px;
-  text-align: center;  
+  text-align: center; 
+  font-size: 40px; 
 }
 
 .overlay nav {
@@ -330,7 +332,7 @@ a.toggle:active {
   .overlay_p {
   position: relative;
   z-index: 200;
-  margin-top: -460px;
+  margin-top: -400px;
   text-align: center;
   }  
 }
