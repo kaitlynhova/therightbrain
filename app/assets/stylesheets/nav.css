@@ -251,6 +251,32 @@ a.toggle:hover {
 a.toggle:active {
     background-color:#222;
 }
+
+.overlay_p{
+  position: relative;
+  top: 0px;
+  z-index: 200;
+  margin-top: -700px;
+  text-align: center;  
+}
+
+.overlay_p2{
+  position: relative;
+  top: 0px;
+  z-index: 200;
+  margin-top: 0px;
+  text-align: center;  
+}
+
+.overlay nav {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  height: 60%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display:block;
+}
  
 .overlay:before {
     content: '';
@@ -258,6 +284,10 @@ a.toggle:active {
     height: 100%;
     vertical-align: middle;
     margin-right: -0.25em;
+}
+
+.trigger_clicked{
+  z-index: 101 !important;
 }
 
 .overlay_clicked{

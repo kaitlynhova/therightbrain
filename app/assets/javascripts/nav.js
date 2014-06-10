@@ -3,9 +3,9 @@ $(document).ready(function(){
   $('#trigger-overlay').click(function() {
      $('.overlay').toggleClass('overlay_clicked');
      
-     $('#trigger-overlay').css("z-index", 101);
+     $('#trigger-overlay').toggleClass('trigger_clicked');
      
-     $('.mobilenav_bar').css("background","none");
+     $('.mobilenav_bar').toggleClass('no-bg');
   });
   
 });
