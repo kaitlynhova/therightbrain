@@ -6,8 +6,6 @@ $(document).ready(function(){
     var open = false;
     anchor.onclick = function(event){
       event.preventDefault();
-      $('.overlay').toggleClass('overlay-scale');
-      $('.mobilenav_bar').toggleClass('no-bg');
       if(!open){
         this.classList.add('close');
         open = true;
