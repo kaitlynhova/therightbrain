@@ -8,4 +8,8 @@ $(document).ready(function(){
      $('.mobilenav_bar').toggleClass('no-bg');
   });
   
+  $('a.gallery').fancybox({
+      'titlePosition' : 'inside'
+      });
+  
 });
