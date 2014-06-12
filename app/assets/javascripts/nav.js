@@ -11,5 +11,11 @@ $(document).ready(function(){
   $('a.gallery').fancybox({
       'titlePosition' : 'inside'
       });
+      $('#mobile_music').click(function() {
+        $('#mobile_music_subnav').toggleClass('tada_subnav');
+      });
+      $('#mobile_media').click(function() {
+        $('#mobile_media_subnav').toggleClass('tada_subnav');
+      });
   
 });

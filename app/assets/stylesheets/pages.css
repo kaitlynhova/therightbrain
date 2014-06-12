@@ -133,6 +133,7 @@ h3{
 #title_photos{
   position: inherit;
   z-index:-2;
+  margin-top:100px;
 }
 
 .photos_page{
@@ -300,6 +301,9 @@ h3{
   position: relative;
   top: 21px;
   font-size: 30px;
+  }
+  .main_navigation{
+    font-size:15px;
   }
   
   .TL_1989{
