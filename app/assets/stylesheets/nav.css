@@ -354,7 +354,7 @@ a.toggle:active {
   .overlay_p {
   position: relative;
   z-index: 200;
-  margin-top: -485px;
+  margin-top: -400px;
   font-size:30px;
   text-align: center;
   }
