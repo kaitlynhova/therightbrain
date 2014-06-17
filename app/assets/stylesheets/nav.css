@@ -329,6 +329,19 @@ a.toggle:active {
   visibility: visible !important;
 }
 
+.goaway{
+  display:none!important;
+}
+
+.godown{
+  position: relative;
+  top: 124px;
+}
+
+.comeback{
+  opacity: 1 !important;
+}
+
 .overlay{
   position: fixed;
   transition: 1s;

@@ -17,5 +17,16 @@ $(document).ready(function(){
       $('#mobile_media').click(function() {
         $('#mobile_media_subnav').toggleClass('tada_subnav');
       });
+  $('#music').click(function() {
+    //$('#that_triangle').toggleClass("goaway");
+    $('#that_triangle').toggleClass("godown");
+    $('#music_submenu').toggleClass("comeback");
+    $('.navbg').toggleClass('newheight');
+  });
+  $('#media').click(function() {
+    $('#that_triangle').toggleClass("godown");
+    $('#media_submenu').toggleClass("comeback");
+    $('.navbg').toggleClass('newheight');
+  });
   
 });
