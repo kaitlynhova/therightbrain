@@ -89,7 +89,7 @@ h3{
   color: #f5f5f5;
   text-align: center;
   position: relative;
-  top: 25px;
+  top: 7px;
   opacity: 0.0;
   transition: .5s ease;
   background: gray;
@@ -128,7 +128,7 @@ h3{
   top: 89px;
   opacity: .6;
   z-index:10;
-  transition:top .5s;
+  transition: .5s;
 }
 
 .TLM_image{

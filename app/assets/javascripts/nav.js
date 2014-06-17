@@ -8,6 +8,15 @@ $(document).ready(function(){
      $('.mobilenav_bar').toggleClass('no-bg');
   });
   
+  $('#trigger-contact-overlay').click(function() {
+     $('.contact-overlay').toggleClass('overlay_clicked');
+     
+     $('#trigger-contact-overlay').toggleClass('trigger_clicked');
+     
+     $('.navbg').toggleClass('no-bg');
+     $('#that_triangle').toggleClass('go-away');
+  });
+  
   $('a.gallery').fancybox({
       'titlePosition' : 'inside'
       });
@@ -28,5 +37,6 @@ $(document).ready(function(){
     $('#media_submenu').toggleClass("comeback");
     $('.navbg').toggleClass('newheight');
   });
+  
   
 });

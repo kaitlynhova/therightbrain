@@ -38,6 +38,11 @@ transition: 0.3s;
 position: relative;
 }
 
+.go-away{
+  opacity: 0 !important;
+  transition: .5s;
+}
+
 .lines:before, .lines:after {
   display: inline-block;
   width: 3rem;
@@ -153,6 +158,75 @@ position: relative;
 
 .overlay ul li a:hover,
 .overlay ul li a:focus {
+	color: #f0f0f0;
+}
+
+/* Overlay style */
+.contact-overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+  transition: .5s;
+	left: 0;
+	background: rgba(153,204,51,0.9);
+}
+
+/* Overlay closing cross */
+.contact-overlay .contact-overlay-close {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow: hidden;
+	border: none;
+    background:red;
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+
+/* Menu style */
+.contact-overlay nav {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.contact-overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+
+.contact-overlay ul li {
+	display: block;
+	height: 20%;
+	height: calc(100% / 5);
+	min-height: 54px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.contact-overlay ul li a {
+	font-size: 54px;
+	font-weight: 300;
+	display: block;
+	color: #fff;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.contact-overlay ul li a:hover,
+.contact-overlay ul li a:focus {
 	color: #f0f0f0;
 }
 
