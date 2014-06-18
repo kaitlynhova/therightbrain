@@ -1,5 +1,6 @@
 $(document).ready(function(){
   
+  //MOBILE OVERLAY
   $('#trigger-overlay').click(function() {
      $('.overlay').toggleClass('overlay_clicked');
      
@@ -8,6 +9,7 @@ $(document).ready(function(){
      $('.mobilenav_bar').toggleClass('no-bg');
   });
   
+  //CONTACT OVERLAY
   $('#trigger-contact-overlay').click(function() {
      $('.contact-overlay').toggleClass('overlay_clicked');
      
@@ -17,25 +19,52 @@ $(document).ready(function(){
      $('#that_triangle').toggleClass('go-away');
   });
   
+  $('#contact_close').click(function() {
+    $('.contact-overlay').toggleClass('overlay_clicked');
+    
+    $('#trigger-contact-overlay').toggleClass('trigger_clicked');
+    
+    $('.navbg').toggleClass('no-bg');
+    $('#that_triangle').toggleClass('go-away');
+  });
+  
+  //FANCYBOX FORMATTING 
   $('a.gallery').fancybox({
       'titlePosition' : 'inside'
-      });
-      $('#mobile_music').click(function() {
-        $('#mobile_music_subnav').toggleClass('tada_subnav');
+    });
+    
+  //MOBILE MUSIC MENU POP UP
+  $('#mobile_music').click(function() {
+      $('#mobile_music_subnav').toggleClass('tada_subnav');
       });
       $('#mobile_media').click(function() {
         $('#mobile_media_subnav').toggleClass('tada_subnav');
-      });
+    });
+  
+  //DESKTOP MUSIC MENU POP DOWN  
   $('#music').click(function() {
-    //$('#that_triangle').toggleClass("goaway");
-    $('#that_triangle').toggleClass("godown");
-    $('#music_submenu').toggleClass("comeback");
-    $('.navbg').toggleClass('newheight');
+    if ($( "#navbg" ).hasClass( "newheight" )){
+      $('#media_submenu').toggleClass("comeback");
+      $('#music_submenu').toggleClass("comeback");
+      alert("media menu open as well");
+    }
+    else{
+      $('#that_triangle').toggleClass("godown");
+      $('#music_submenu').toggleClass("comeback");
+      $('.navbg').toggleClass('newheight');
+    } 
   });
+  //DESKTOP MEDIA MENU POP DOWN 
   $('#media').click(function() {
-    $('#that_triangle').toggleClass("godown");
-    $('#media_submenu').toggleClass("comeback");
-    $('.navbg').toggleClass('newheight');
+    if ($( "#navbg" ).hasClass( "newheight" )){
+      $('#media_submenu').toggleClass("comeback");
+      $('#music_submenu').toggleClass("comeback");
+    }
+    else{
+      $('#that_triangle').toggleClass("godown");
+      $('#media_submenu').toggleClass("comeback");
+      $('.navbg').toggleClass('newheight');
+    } 
   });
   
   

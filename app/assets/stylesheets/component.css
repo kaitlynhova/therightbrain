@@ -1,23 +1,53 @@
+/***********************************************/
+/*************        FONTS       **************/
+/***********************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @font-face {
 	font-family: 'fontawesome';
-	src:url('../fonts/fontawesome/fontawesome.eot?-v92fkb');
-	src:url('../fonts/fontawesome/fontawesome.eot?#iefix-v92fkb') format('embedded-opentype'),
-		url('../fonts/fontawesome/fontawesome.woff?-v92fkb') format('woff'),
-		url('../fonts/fontawesome/fontawesome.ttf?-v92fkb') format('truetype'),
-		url('../fonts/fontawesome/fontawesome.svg?-v92fkb#fontawesome') format('svg');
+	src:url('../assets/fontawesome.eot?-v92fkb');
+	src:url('../assets/fontawesome.eot?#iefix-v92fkb') format('embedded-opentype'),
+		url('../assets/fontawesome.woff?-v92fkb') format('woff'),
+		url('../assets/fontawesome.ttf?-v92fkb') format('truetype'),
+		url('../assets/fontawesome.svg?-v92fkb#fontawesome') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Blokk';
-	src: url('../fonts/blokk/BLOKKRegular.eot');
-	src: url('../fonts/blokk/BLOKKRegular.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/blokk/BLOKKRegular.woff') format('woff'),
-		 url('../fonts/blokk/BLOKKRegular.svg#BLOKKRegular') format('svg');
+	src: url('../assets/BLOKKRegular.eot');
+	src: url('../assets/BLOKKRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../assets/BLOKKRegular.woff') format('woff'),
+		 url('../assets/BLOKKRegular.svg#BLOKKRegular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Blokk';
+	src: url('../assets/BLOKKRegular.eot');
+	src: url('../assets/BLOKKRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../assets/BLOKKRegular.woff') format('woff'),
+		 url('../assets/BLOKKRegular.svg#BLOKKRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../assets/codropsicons.eot');
+	src:url('../assets/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../assets/codropsicons.woff') format('woff'),
+		url('../assets/codropsicons.ttf') format('truetype'),
+		url('../assets/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/***********************************************/
+/*************       GENERAL      **************/
+/***********************************************/
 
 body {
 	position: relative;

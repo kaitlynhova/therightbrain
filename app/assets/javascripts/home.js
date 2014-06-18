@@ -1,7 +1,8 @@
 $(document).ready(function(){
  var previous_scroll_position = 0;
  loadPhotos();
- 
+// SCROLLING EFFECT ON HOME PAGE
+//replace image every 50px  
  function loadPhotos(){
    var windscroll = $(window).scrollTop();
    console.log(windscroll);
@@ -19,8 +20,7 @@ $(document).ready(function(){
       $('#moving_photo1').addClass('goaway');
       $('#moving_photo2').addClass('goaway');
       $('#moving_photo3').removeClass('goaway');
-    }
-    
+    }  
  }
   $(window).scroll(function() {
     loadPhotos();

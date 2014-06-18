@@ -1,6 +1,6 @@
 $(document).ready(function(){
+  // MOBILE NAV CLICK ANNIMATIONS FROM HAMBURGER TO X
   var anchor = document.querySelectorAll('button');
-
   [].forEach.call(anchor, function(anchor){
     var open = false;
     anchor.onclick = function(event){

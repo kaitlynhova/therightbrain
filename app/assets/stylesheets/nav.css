@@ -38,6 +38,18 @@ transition: 0.3s;
 position: relative;
 }
 
+.contact_close{
+  opacity: 1;
+  font-size: 70px;
+  color:whitesmoke;
+}
+
+.contact_popup{
+  color: whitesmoke;
+  position:relative;
+  top: 50%;
+}
+
 .go-away{
   opacity: 0 !important;
   transition: .5s;
