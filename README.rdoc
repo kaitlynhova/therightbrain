@@ -8,3 +8,6 @@ This is a rails app in the works that will be a portfolio website and a booking 
 
 
 Awesome
+
+
+***This is in it's most beginning stages***
