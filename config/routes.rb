@@ -7,6 +7,7 @@ TheRightBrain::Application.routes.draw do
   get "commercial_music" => "pages#commercial"
   get "bridal_music" => "pages#bridal"
   get "art" => "pages#art"
+  get "contact" => "pages#contact"
   get "violins" => "pages#violins"
   get "press" => "pages#press"
   get "videos" => "pages#videos"

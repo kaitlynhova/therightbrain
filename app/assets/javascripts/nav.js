@@ -9,25 +9,6 @@ $(document).ready(function(){
      $('.mobilenav_bar').toggleClass('no-bg');
   });
   
-  //CONTACT OVERLAY
-  $('#trigger-contact-overlay').click(function() {
-     $('.contact-overlay').toggleClass('overlay_clicked');
-     
-     $('#trigger-contact-overlay').toggleClass('trigger_clicked');
-     
-     $('.navbg').toggleClass('no-bg');
-     $('#that_triangle').toggleClass('go-away');
-  });
-  
-  $('#contact_close').click(function() {
-    $('.contact-overlay').toggleClass('overlay_clicked');
-    
-    $('#trigger-contact-overlay').toggleClass('trigger_clicked');
-    
-    $('.navbg').toggleClass('no-bg');
-    $('#that_triangle').toggleClass('go-away');
-  });
-  
   //FANCYBOX FORMATTING 
   $('a.gallery').fancybox({
       'titlePosition' : 'inside'
