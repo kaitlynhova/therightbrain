@@ -11,3 +11,5 @@ Awesome
 
 
 ***This is in it's most beginning stages***
+
+watch it progress on http://therightbrain.herokuapp.com/
