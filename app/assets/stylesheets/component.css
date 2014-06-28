@@ -246,7 +246,12 @@ body {
 }
 
 .close-content:before {
-	content: "\e602";
+  content: "\e602";
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 53px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 /* Dummy content */
