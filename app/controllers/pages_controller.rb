@@ -33,6 +33,10 @@ class PagesController < ApplicationController
   end
   def videos
   end
+  
+  def contact
+
+  end
 
   # GET /pages/new
   # GET /pages/new.json
@@ -53,17 +57,14 @@ class PagesController < ApplicationController
   # POST /pages
   # POST /pages.json
   def create
-    @page = Page.new(params[:page])
+    fname = params[:fname]
+    email = params[:email]
+    mess = params[:description]
+    
+    ContactForm.contact_email(fname, email, mess).deliver
+    redirect_to :root
 
-    respond_to do |format|
-      if @page.save
-        format.html { redirect_to @page, notice: 'Page was successfully created.' }
-        format.json { render json: @page, status: :created, location: @page }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @page.errors, status: :unprocessable_entity }
-      end
-    end
+    
   end
 
   # PUT /pages/1

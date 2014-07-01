@@ -8,6 +8,7 @@ TheRightBrain::Application.routes.draw do
   get "bridal_music" => "pages#bridal"
   get "art" => "pages#art"
   get "contact" => "pages#contact"
+  post "contact" => "pages#create"
   get "violins" => "pages#violins"
   get "press" => "pages#press"
   get "videos" => "pages#videos"
