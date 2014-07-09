@@ -114,6 +114,11 @@ h3{
   -webkit-appearance: none;
   padding: 27px;
   font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.coming_soon{
+  letter-spacing: 4px;
 }
 
 .tab textarea{
