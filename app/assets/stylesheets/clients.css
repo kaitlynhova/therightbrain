@@ -1,0 +1,32 @@
+.new_client_page {
+  margin-top:150px;
+  text-align:center;
+}
+
+.form_input {
+  width: 100%;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.new_form {
+  position:relative;
+  z-index: 2000;
+}
+
+.client_login{
+  position: relative;
+  top: 45px;
+  padding: 75px;
+}
+
+.show_page{
+  margin-top:250px !important;
+  font-family: "garamond-premier-pro", serif;
+}
+
+.client{
+  text-align: left;
+  font-size: 39px;
+  letter-spacing: 4px;
+}

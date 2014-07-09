@@ -4,8 +4,10 @@
   <title>TheRightBrain</title>
   <%= javascript_include_tag :jquery %>
   <meta name="viewport" content="initial-scale=1">
+  <script type="text/javascript" src="//use.typekit.net/xty1bvd.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <%= stylesheet_link_tag "component" %>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag :masonry %>
   <%= javascript_include_tag :modernizr %>
   <%= javascript_include_tag :fancybox %>
@@ -18,12 +20,11 @@
   <%= render 'nav' %>
   <%= render 'mobilenav' %>
   
+  
 </head>
 <body>
 
 <%= yield %>
-</body>
-  
   <%= render 'contact' %>
-  
+</body>
 </html>

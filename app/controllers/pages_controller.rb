@@ -3,6 +3,7 @@ class PagesController < ApplicationController
   # GET /pages.json
   def index
     @pages = Page.all
+    @client = Client.new
 
     respond_to do |format|
       format.html # index.html.erb
