@@ -7,7 +7,9 @@ gem 'dotenv-rails', :groups => [:development, :test]
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+ gem 'pg'
+ 
+ gem 'bcrypt-ruby', '~> 3.0.0'
 
 
 # Gems used only for assets and not required
