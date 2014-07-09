@@ -1,7 +1,13 @@
 TheRightBrain::Application.routes.draw do
+  resources :clients
   resources :pages
-
+  resources :logins
+  
   root :to => 'pages#home'
+  
+  get '/client' => 'clients#show', as: :client
+  get "client/:id" => "clients#show"
+  get "clients"=> "clients#new"
   get "photos" => "pages#photos"
   get "discography" => "pages#discography"
   get "commercial_music" => "pages#commercial"

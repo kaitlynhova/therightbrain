@@ -1,17 +1,8 @@
-<p id="contact"> </p>
 
-<div class="bottom_nav row" style="color:whitesmoke;">
+<div id = "contact" class="bottom_nav row">
   <div class="large-6 columns">
     <h1 class="bottom_nav_h1 bottom_header">CLIENT LOG IN</h1>
     <p class="subheader sub2">check in <p>
-      <div class ="client_login">
-        <%= form_tag logins_path do %>
-          <p><%= text_field_tag 'email', nil, :autocomplete => :off, placeholder: 'EMAIL',:class => "inputtimes" %></p>
-          <p><%= password_field_tag 'password', nil, placeholder: 'PASSWORD',:class => "inputtimes", :autocomplete => :off %></p>
-  
-          <%= submit_tag "LOG IN" , :class => "submit_button"%>
-        <% end %>
-      </div>
   </div>
   <div class="large-6 columns">
     <h1 class="bottom_nav_h1 bottom_header">CONTACT </p>
