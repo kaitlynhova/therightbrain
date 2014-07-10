@@ -518,7 +518,7 @@ h3{
   }
 }
 
-@media only screen and (max-width: 40em) { 
+@media only screen {
   
   .hello{
     padding:25px;
@@ -543,7 +543,7 @@ h3{
   font-size: 30px;
   }
   .main_navigation{
-    font-size:15px;
+ 
   }
   
   .TL_1989{
