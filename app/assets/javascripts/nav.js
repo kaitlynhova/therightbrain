@@ -28,11 +28,11 @@ $(document).ready(function(){
       $('#media_submenu').toggleClass("comeback");
       $('#music_submenu').toggleClass("comeback");
       $('#media_submenu').css("display","none !important;");
-      alert("media menu open as well");
     }
     else{
       $('#that_triangle').toggleClass("godown");
       $('#music_submenu').toggleClass("comeback");
+      
       $('.navbg').toggleClass('newheight');
     } 
   });
