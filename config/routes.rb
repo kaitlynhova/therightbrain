@@ -5,6 +5,7 @@ TheRightBrain::Application.routes.draw do
   
   root :to => 'pages#home'
   
+  get '/resume' => 'pages#resume'
   get '/client' => 'clients#show', as: :client
   get "client/:id" => "clients#show"
   get "clients"=> "clients#new"

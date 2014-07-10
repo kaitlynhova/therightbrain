@@ -46,6 +46,21 @@
   background-position-y: 39px !important;
 }
 
+.twittergrey{
+  width: 40px;
+  height: 34px;
+  background-image: url("/assets/twittergrey.png");
+  display: block;
+  margin: 0 auto;
+}
+
+.twittergrey:hover{
+  width: 40px;
+  height: 34px;
+  background-image: url("/assets/twittergrey.png");
+  background-position-y: 40px !important;
+}
+
 .social{
   position: relative;
   z-index: 1000;
@@ -69,6 +84,23 @@
   background-position-y: 48px !important;
 }
 
+.soundcloudgrey{
+  width: 40px;
+  height: 25px;
+  background-image: url("/assets/soundcloudgrey.png");
+  position: relative;
+  top: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.soundcloudgrey:hover{
+  width: 40px;
+  height: 25px;
+  background-image: url("/assets/soundcloudgrey.png");
+  background-position-y: 48px !important;
+}
+
 .facebook{
   width: 30px;
   height: 31px;
@@ -88,6 +120,25 @@
   top: 5px;
 }
 
+.facebookgrey{
+  width: 40px;
+  height: 31px;
+  background-image: url("/assets/facebookgrey.png");
+  position: relative;
+  top: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.facebookgrey:hover{
+  width: 40px;
+  height: 31px;
+  background-image: url("/assets/facebookgrey.png");
+  position: relative;
+  background-position-y: 38px;
+  top: 5px;
+}
+
 .instagram{
   width: 30px;
   height: 31px;
@@ -102,6 +153,25 @@
   width: 30px;
   height: 31px;
   background-image: url("/assets/instagram.png");
+  position: relative;
+  background-position-y: 38px;
+  top: 5px;
+}
+
+.instagramgrey{
+  width: 40px;
+  height: 31px;
+  background-image: url("/assets/instagramgrey.png");
+  position: relative;
+  top: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.instagramgrey:hover{
+  width: 40px;
+  height: 31px;
+  background-image: url("/assets/instagramgrey.png");
   position: relative;
   background-position-y: 38px;
   top: 5px;

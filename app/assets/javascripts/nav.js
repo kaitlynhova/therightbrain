@@ -27,6 +27,7 @@ $(document).ready(function(){
     if ($( "#navbg" ).hasClass( "newheight" )){
       $('#media_submenu').toggleClass("comeback");
       $('#music_submenu').toggleClass("comeback");
+      $('#media_submenu').css("display","none !important;");
       alert("media menu open as well");
     }
     else{
@@ -40,7 +41,9 @@ $(document).ready(function(){
     if ($( "#navbg" ).hasClass( "newheight" )){
       $('#media_submenu').toggleClass("comeback");
       $('#music_submenu').toggleClass("comeback");
+      $('#music_submenu').css("display","none !important");
     }
+
     else{
       $('#that_triangle').toggleClass("godown");
       $('#media_submenu').toggleClass("comeback");

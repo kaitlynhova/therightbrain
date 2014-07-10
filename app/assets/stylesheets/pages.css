@@ -94,6 +94,49 @@ h3{
   top: 326px;
 }
 
+.resume_photo{
+  background-image: url("/assets/background.png");
+  height: 450px;
+  background-position-y: 600px;
+  margin-top:-40px;
+}
+
+.resume_page h1{
+  font-size: 33px;
+  letter-spacing: 4px;
+  text-align:left;
+  margin-top: 75px;
+}
+
+.resume_page p{
+  line-height: 10px;
+}
+
+.resume_page .row .large-6 div{
+  padding-top:7px;
+}
+
+.resume_page  hr{
+  margin: 39px 0px;
+}
+
+.resume_header{
+  position: relative;
+  top: 200px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.resume_header h1{
+  letter-spacing: 4px;
+  font-size: 65px;
+  line-height: 75px;
+}
+
+.resume_header p {
+  letter-spacing: 10px;
+}
+
 .bottom_quote{
   font-family: "garamond-premier-pro", serif;
   font-size: 3vw;
@@ -104,6 +147,14 @@ h3{
   letter-spacing: 2px;
   position: relative;
   top: 234px;
+}
+
+.resume_button{
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
 }
 
 .submit_button{
@@ -123,6 +174,10 @@ h3{
 
 .tab textarea{
   display: none;
+}
+
+.resume_page{
+  margin-top: 20px;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
@@ -399,6 +454,7 @@ h3{
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
   
+  
   .TL_year {
   position: relative;
   top: 21px;
@@ -459,6 +515,10 @@ h3{
 }
 
 @media only screen and (max-width: 40em) { 
+  
+  .hello{
+    padding:25px;
+  }
   
   .contact_form {
   position: relative;
