@@ -195,6 +195,10 @@ h3{
     color:    gray;
 }
 
+.white{
+  color:white;
+}
+
 .contact_form{
   position: relative;
   top: -30px;
