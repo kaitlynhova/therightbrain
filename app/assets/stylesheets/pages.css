@@ -518,7 +518,7 @@ h3{
   }
 }
 
-@media only screen {
+@media only screen and (max-width: 40em) { 
   
   .hello{
     padding:25px;
