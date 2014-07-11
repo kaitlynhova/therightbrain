@@ -61,6 +61,7 @@ h3{
   background: rgba(98,98,98,.7);
   margin-top: 450px;
   padding-bottom: 75px;
+  height:1000px;
 }
 
 .bottom_header{
@@ -458,6 +459,9 @@ h3{
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
   
+  .bottom_nav{
+    height:1600px;
+  }
   
   .TL_year {
   position: relative;
@@ -518,7 +522,17 @@ h3{
   }
 }
 
+@media screen and (device-aspect-ratio: 40/71) {
+  .overlay{
+    position:fixed;
+  }
+}
+
 @media only screen and (max-width: 40em) { 
+  
+    .bottom_nav{
+      height:1390px;
+    }
   
   .hello{
     padding:25px;
