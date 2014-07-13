@@ -4,6 +4,8 @@ $(document).ready(function(){
   $('#trigger-overlay').click(function() {
      $('.overlay').toggleClass('overlay_clicked');
      
+     $('body').toggleClass('stopit');
+     
      $('#trigger-overlay').toggleClass('trigger_clicked');
      
      $('.mobilenav_bar').toggleClass('no-bg');

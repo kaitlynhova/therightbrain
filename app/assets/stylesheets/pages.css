@@ -40,6 +40,10 @@
 
 }
 
+.stopit{
+  overflow: hidden;
+  position:fixed;
+}
 
 html{
   font-family: "europa";
