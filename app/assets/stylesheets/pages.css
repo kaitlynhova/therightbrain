@@ -58,6 +58,21 @@ h1{
   padding:0px !important;
 }
 
+.content_box h1{
+  font-size: 55px;
+  letter-spacing: 5px;
+  line-height:50px;
+  text-align:left !important;
+}
+
+.content_box .left {
+  text-align:right !important;
+}
+
+.content_box .right {
+  text-align:left !important;
+}
+
 h3{
   text-align: center;
   letter-spacing: 5px;
@@ -253,6 +268,7 @@ h3{
   text-transform: uppercase;
   text-align:center;
   z-index: 100;
+  font-weight:bold;
   color:whitesmoke;
 }
 
@@ -441,7 +457,7 @@ h3{
 }
 
 .TL_image{
-  border: 75px rgb(215,197,191) solid;
+
 }
 
 .hr_thing{
@@ -469,6 +485,12 @@ h3{
   
   .bottom_nav{
     height:1600px;
+  }
+  
+  .content_box h1{
+    font-size: 8vw;
+    letter-spacing: 5px;
+    line-height:50px !important;
   }
   
   .TL_year {
