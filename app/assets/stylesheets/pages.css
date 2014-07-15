@@ -82,7 +82,7 @@ h3{
 .bottom_nav{
   max-width: 100% !important;
   background: rgba(98,98,98,.7);
-  margin-top: 450px;
+  margin-top: 700px;
   padding-bottom: 75px;
   height:1000px !important;
 }
@@ -433,13 +433,13 @@ h3{
 .timeline1{
   padding-right: 65px;
   border-right: 3px solid rgba(0,0,0,0.4);
-  height: 400px;
+  height: 633px;
 }
 
 .timeline2{
   padding-left: 65px;
   border-left: 3px solid rgba(0,0,0,0.4);
-  height: 400px;
+  height: 633px;
 }
 
 .content_box{
@@ -451,13 +451,18 @@ h3{
 }
 
 .TL_year{
-  position:relative;
-  padding:117px;
-  top:50px;
+  position: relative;
+  padding: 48px;
+  top: 67px;
+  font-size:25px;
 }
 
 .TL_image{
 
+}
+
+.TL_pad {
+  margin-top: 75px;
 }
 
 .hr_thing{
@@ -484,34 +489,35 @@ h3{
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
   
   .bottom_nav{
-    height:1600px;
+    height:1600px !important;
   }
   
   .content_box h1{
     font-size: 8vw;
     letter-spacing: 5px;
-    line-height:50px !important;
+    line-height:75px !important;
+    margin-top: 0px !important;
   }
   
   .TL_year {
   position: relative;
-  top: 21px;
+  top: 75px;
   font-size: 30px;
   }
   
   .TL_1989{
     position: relative;
-    top: 45px;
+    top: 20px;
   }
   
   .TLM_1994{
     position: relative;
-    top: 20px;
+    top: 10px;
   } 
   
   .TLM_2000{
     position: relative;
-    top: 25px;
+    top: 5px;
   }
   
   .TLM_2001{
@@ -521,23 +527,28 @@ h3{
   
   .TLM_2006{
     position: relative;
-    top: 20px;
+    top: 15px;
   }
   
   .TLM_2011{
     position: relative;
-    top: 20px;
+    top: 3px;
   }
   
   .TLM_2012{
     position: relative;
-    top: 20px;
+    top: 5px;
   }
   
   .TLM_2013{
     position: relative;
-    top: 20px;
+    top: 7px;
   } 
+  
+  .TLM_2014{
+    position:relative;
+    top:35px;
+  }
     
   .timeline1{
     height: inherit;
@@ -592,27 +603,27 @@ h3{
   
   .TL_1989{
     position: relative;
-    top: 45px;
+    top: 75px;
   }
   
   .TLM_1994{
     position: relative;
-    top: 20px;
+    top: 60px;
   } 
   
   .TLM_2000{
     position: relative;
-    top: 25px;
+    top: 55px;
   }
   
   .TLM_2001{
     position: relative;
-    top: 20px;
+    top: 60px;
   }
   
   .TLM_2006{
     position: relative;
-    top: 20px;
+    top: 60px;
   }
   
   .TLM_2011{
@@ -622,14 +633,24 @@ h3{
   
   .TLM_2012{
     position: relative;
-    top: 20px;
+    top: 65px;
   }
   
   .TLM_2013{
     position: relative;
-    top: 20px;
+    top: 60px;
   } 
-
+  
+  .TLM_2013b{
+    position: relative;
+    top: 45px;
+  } 
+  
+  .TLM_2014{
+    position:relative;
+    top:80px;
+  }
+  
   #title_photos{
     position: inherit;
     top: 0px;
