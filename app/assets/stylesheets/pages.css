@@ -58,6 +58,13 @@ h1{
   padding:0px !important;
 }
 
+p {
+  font-family: "garamond-premier-pro" !important;
+  font-size: 24px !important;
+  line-height: 35px !important;
+  font-family: 'europa';
+  }
+
 .content_box h1{
   font-size: 5vh;
   letter-spacing: 5px;
