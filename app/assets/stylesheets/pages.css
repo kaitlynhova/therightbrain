@@ -64,6 +64,10 @@ p {
   line-height: 35px !important;
   font-family: 'europa';
   }
+  
+  .nomore{
+    display:none !important;
+  }
 
 .content_box h1{
   font-size: 5vh;
@@ -90,8 +94,8 @@ h3{
   max-width: 100% !important;
   background: rgba(98,98,98,.7);
   margin-top: 700px;
-  padding-bottom: 75px;
-  height:1000px !important;
+  padding-bottom: 105px;
+  height: 1032px !important;
 }
 
 .bottom_header{
@@ -280,14 +284,19 @@ h3{
 }
 
 .subheader{
+  font-family: 'europa' !important;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 5px;
+  margin: 0 0 35px 0;
+  font-weight: bold;
 }
 
 .sub2{
   text-align: center;
   position: relative;
   top: 75px;
+  font-size: 15px !important;
 }
 
 
@@ -308,7 +317,7 @@ h3{
   color: #f5f5f5;
   text-align: center;
   position: relative;
-  top: 7px;
+  top: 25px;
   opacity: 0.0;
   transition: .5s ease;
   background: gray;
@@ -334,20 +343,21 @@ h3{
   font-size: 20px;
   opacity: .6;
   transition: .5s;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
 }
 
 .newheight{
   transition: .5s;
-  padding-bottom: 20px;
+  padding-bottom: 38px;
 }
 
 #that_triangle{
   position: fixed;
-  top: 89px;
   opacity: .6;
   z-index:10;
   transition: .5s;
+  top: 83px;
+  display:none !important;
 }
 
 .TLM_image{
@@ -579,7 +589,7 @@ h3{
 @media only screen and (max-width: 40em) { 
   
     .bottom_nav{
-      height: 1407px !important;
+      height: 1471px !important;
     }
   
   .hello{

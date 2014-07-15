@@ -26,6 +26,9 @@ $(document).ready(function(){
   
   //DESKTOP MUSIC MENU POP DOWN  
   $('#music').click(function() {
+    $('#music_submenu').removeClass("nomore");
+    $('#that_triangle').css("top", "107px !important");
+    
     if ($( "#navbg" ).hasClass( "newheight" )){
       $('#media_submenu').toggleClass("comeback");
       $('#music_submenu').toggleClass("comeback");
@@ -34,12 +37,16 @@ $(document).ready(function(){
     else{
       $('#that_triangle').toggleClass("godown");
       $('#music_submenu').toggleClass("comeback");
-      
+      $('#media_submenu').addClass("nomore");
+      $('#music_submenu').removeClass("nomore");
       $('.navbg').toggleClass('newheight');
     } 
   });
   //DESKTOP MEDIA MENU POP DOWN 
   $('#media').click(function() {
+    $('#media_submenu').removeClass("nomore");
+    $('#that_triangle').css("top", "107px !important");
+    
     if ($( "#navbg" ).hasClass( "newheight" )){
       $('#media_submenu').toggleClass("comeback");
       $('#music_submenu').toggleClass("comeback");
@@ -50,6 +57,8 @@ $(document).ready(function(){
       $('#that_triangle').toggleClass("godown");
       $('#media_submenu').toggleClass("comeback");
       $('.navbg').toggleClass('newheight');
+      $('#music_submenu').addClass("nomore");
+      $('#media_submenu').removeClass("nomore");
     } 
   });
   
