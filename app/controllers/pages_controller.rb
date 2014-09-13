@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   # GET /pages
-  skip_before_filter  :verify_authenticity_token
+
   # GET /pages.json
   def index
     @pages = Page.all

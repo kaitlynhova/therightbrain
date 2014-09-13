@@ -346,6 +346,16 @@ h3{
   padding-bottom: 30px;
 }
 
+
+.socialrow{
+  position: relative;
+  top: 130px;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
 .newheight{
   transition: .5s;
   padding-bottom: 38px;
