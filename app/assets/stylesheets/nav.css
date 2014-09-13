@@ -393,6 +393,7 @@ a.toggle:active {
 
 .no-bg{
   background: none !important;
+  color: none;
 }
 
 #mobile_music_subnav{
