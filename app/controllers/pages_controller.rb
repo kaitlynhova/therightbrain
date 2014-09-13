@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   # GET /pages
+  skip_before_filter  :verify_authenticity_token
   # GET /pages.json
   def index
     @pages = Page.all
@@ -61,7 +62,6 @@ class PagesController < ApplicationController
     fname = params[:fname]
     email = params[:email]
     mess = params[:description]
-    
     ContactForm.contact_email(fname, email, mess).deliver
     redirect_to :root
 
